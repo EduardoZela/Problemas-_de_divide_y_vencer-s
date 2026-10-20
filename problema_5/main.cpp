@@ -18,7 +18,7 @@ int Aleatorio(int min , int max)
     return min+rand()%(max-min +1);
 }
 
-int QuickSelect( vector<int> V, int ini, int final,int k)
+int QuickSelect( vector<int> &V, int ini, int final,int k)
 { 
     //caso base
     if(ini==final)
